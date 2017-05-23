@@ -1,29 +1,29 @@
 # ToyRobotSimulator
 
-Environment Details :
+### Environment Details :
 PHP 7.1.1
 
-Instructions :
+### Instructions :
 
-To run the code : 
+#### To run the code : 
 
 php mainRobot.php testFile/testMoveOutOFRange.txt
 
 mainRobot.php accepts multiple file (minimum of 1).
 
-To install phpunit :
+#### To install phpunit :
 
 composer install 
 
-To run the test : 
+#### To run the test : 
 
-/vendor/bin/phpunit tests/class.parseTest.php
+vendor/bin/phpunit tests/class.parseTest.php
 
-/vendor/bin/phpunit tests/class.robotTest.php
+vendor/bin/phpunit tests/class.robotTest.php
 
 
 
-Project architecture : 
+### Project architecture : 
 
 mainRobot.php is the main entry point for the program
 
